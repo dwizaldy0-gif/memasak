@@ -6,35 +6,39 @@
   <style>
     body {
       margin: 0;
-      background-image: url('bg.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
-      color: white;
+      padding: 20px;
       font-family: Arial, sans-serif;
+      color: #222;
+      background-color: #f9f9f9;
     }
 
     h1 {
       text-align: center;
-      margin-top: 20px;
+      margin-bottom: 20px;
     }
 
-    center img {
+    .gambar {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gambar img {
       margin: 5px;
+      border-radius: 8px;
     }
 
     h2 {
       margin-top: 20px;
+      color: #333;
     }
 
     ul, ol {
       margin-left: 40px;
     }
 
-    p {
+    p.deskripsi {
       font-weight: bold;
-      margin: 20px 40px;
+      margin: 20px 0;
     }
   </style>
 </head>
@@ -42,13 +46,15 @@
 
   <h1>Resep Indomie</h1>
 
-  <center>
+  <div class="gambar">
     <img src="gambar1.jpeg" alt="Foto 1" width="100">
     <img src="gambar2.jpeg" alt="Foto 2" width="100">
     <img src="gambar3.jpeg" alt="Foto 3" width="100">
-  </center>
+  </div>
   
-  <p>Indomie adalah produk mie instan khas Indonesia yang sangat populer di kalangan masyarakat.</p>
+  <p class="deskripsi">
+    Indomie adalah produk mie instan khas Indonesia yang sangat populer di kalangan masyarakat.
+  </p>
   
   <h2>Bahan-Bahan:</h2>
   <ul>
